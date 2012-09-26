@@ -1,0 +1,34 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+            android:id="@+id/actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" 
+            android:background="@color/action_bar_color"
+            >
+            <ImageButton
+                android:id="@+id/user_photo_btn"
+                android:src="@drawable/user_photo_btn_lq" 
+                android:layout_alignParentLeft="true"
+                style="@style/actionBar"
+                />
+            
+            <ImageButton
+                android:id="@+id/actionMyList"
+                android:src="@drawable/ic_action_my_list" 
+                android:layout_toLeftOf="@+id/actionRecord"
+                style="@style/actionBar" 
+                />
+            <ImageButton
+                android:id="@+id/map"
+                android:src="@drawable/map_btn" 
+                android:layout_toLeftOf="@+id/card_btn"
+                style="@style/actionBar" 
+                />       
+            <ImageButton
+                android:id="@+id/card_btn"
+                android:src="@drawable/card_btn_lq"
+                android:layout_alignParentRight="true"
+                style="@style/actionBar"
+                />
+        </RelativeLayout>
+</merge>

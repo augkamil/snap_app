@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+/home/lukasz/workspace/snap2/.metadata/.plugins/org.eclipse.jdt.core
+417429513.index
+1204756331.index
+2994440453.index
+1623352597.index
+363648519.index

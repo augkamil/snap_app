@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    	
+    	<include 	
+    	    		layout="@layout/header" 
+    	    		android:id="@+id/top_menu"
+    	    		android:layout_alignParentTop="true" />
+
+    	
+    	<FrameLayout
+    	    android:id="@+id/scanner"
+		    android:layout_width="match_parent"
+	        android:layout_height="200dp"
+			android:layout_below="@+id/top_menu" >
+			
+           <include layout="@layout/capture" />
+                    
+        </FrameLayout>
+    	
+        	<include 	layout="@layout/footer" 
+    	    		android:layout_below="@+id/scanner" />
+    
+
+</RelativeLayout>

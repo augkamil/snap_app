@@ -1,0 +1,27 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+            android:id="@+id/actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" 
+            android:background="@color/action_bar_color"
+            >
+            <ImageButton
+                android:id="@+id/find_new_btn"
+                android:src="@drawable/find_new_btn_lq" 
+                android:layout_alignParentLeft="true"
+                style="@style/actionBar"
+                />
+            <ImageButton
+                android:id="@+id/scan_btn"
+                android:src="@drawable/scan_btn_lq"
+                android:layout_toRightOf="@+id/find_new_btn"
+                style="@style/actionBar"
+                />
+            <ImageButton
+                android:id="@+id/collect_btn"
+                android:src="@drawable/collect_btn_lq" 
+                android:layout_toRightOf="@+id/scan_btn"
+                style="@style/actionBar" 
+                />
+        </RelativeLayout>
+</merge>

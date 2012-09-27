@@ -25,7 +25,7 @@
         </FrameLayout>
         
     	
-    	<FrameLayout
+      	<FrameLayout
     	    android:id="@+id/bottom_menu"
 		    android:layout_width="match_parent"
 	        android:layout_height="46dp" 

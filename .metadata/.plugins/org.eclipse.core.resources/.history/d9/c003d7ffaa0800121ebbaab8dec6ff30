@@ -1,0 +1,60 @@
+package com.snap;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.MotionEvent;
+import android.widget.Toast;
+
+import com.snap.SimpleGestureFilter.SimpleGestureListener;
+
+public class CardSecondPage extends Activity implements SimpleGestureListener{
+	private SimpleGestureFilter detector; 
+	Context context;
+	Intent i = null;
+	
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.card_second_page);
+        
+        context = getApplicationContext();
+        detector = new SimpleGestureFilter(this,this);      
+    }
+    
+    @Override 
+    public boolean dispatchTouchEvent(MotionEvent me){ 
+    	this.detector.onTouchEvent(me);
+    	return super.dispatchTouchEvent(me); 
+    }
+    
+    @Override
+    public void onSwipe(int direction) {
+    	String str = "";
+     
+    	switch (direction) {
+     
+    	case SimpleGestureFilter.SWIPE_RIGHT : str = "Swipe Right";
+			i = new Intent(context, CardFirstPage.class);
+			startActivity(i);
+                       break;
+    	case SimpleGestureFilter.SWIPE_LEFT :  str = "Swipe Left";
+    	i = new Intent(context, CardFirstPage.class);
+		startActivity(i);
+                   break;
+    	case SimpleGestureFilter.SWIPE_DOWN :  str = "Swipe Down";
+                                               break;
+    	case SimpleGestureFilter.SWIPE_UP :    str = "Swipe Up";
+                                               break;
+                                              
+     } 
+    	Toast.makeText(this, str, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onDoubleTap() {
+    	Toast.makeText(this, "Double Tap", Toast.LENGTH_SHORT).show(); 
+    }
+
+}

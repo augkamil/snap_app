@@ -3,7 +3,7 @@
             android:id="@+id/header"
             android:layout_width="match_parent"
             android:layout_height="40dp" 
-            >
+            android:background="@color/header" >
             
             <ImageButton
                 android:id="@+id/user_photo_btn"
@@ -13,19 +13,16 @@
                 />
             <ImageButton
                 android:id="@+id/list_btn"
-                android:src="@drawable/list_btn_lq" 
                 android:layout_toLeftOf="@+id/map_btn"
                 style="@style/actionBar" 
                 />
             <ImageButton
                 android:id="@+id/map_btn"
-                android:src="@drawable/map_btn_lq" 
                 android:layout_toLeftOf="@+id/card_btn"
                 style="@style/actionBar" 
                 />       
             <ImageButton
                 android:id="@+id/card_btn"
-                android:src="@drawable/card_btn_lq"
                 android:layout_alignParentRight="true"
                 style="@style/actionBar"
                 />

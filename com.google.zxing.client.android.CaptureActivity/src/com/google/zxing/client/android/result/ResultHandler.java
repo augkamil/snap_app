@@ -104,7 +104,7 @@ public abstract class ResultHandler {
   };
   private static final int NO_TYPE = -1;
 
-  public static final int MAX_BUTTON_COUNT = 4;
+  public static final int MAX_BUTTON_COUNT = 0;
 
   private final ParsedResult result;
   private final Activity activity;

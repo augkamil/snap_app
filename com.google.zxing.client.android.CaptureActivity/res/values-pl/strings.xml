@@ -68,12 +68,12 @@
   <string name="msg_about">Bazowane na bibliotece kodów paskowych ZXing o otwartym źródle</string>
   <string name="msg_bulk_mode_scanned">Tryb zbiorcze: skanowania kodów kreskowych i zapisaniu</string>
   <string name="msg_camera_framework_bug">Przepraszamy, aparat Android napotkał problem. Może wystąpić potrzeba ponownego uruchomienia urządzenia.</string>
-  <string name="msg_default_format">Format</string>
-  <string name="msg_default_meta">Metadanych</string>
+  <string name="msg_default_format"></string>
+  <string name="msg_default_meta"></string>
   <string name="msg_default_mms_subject">Cześć</string>
   <string name="msg_default_status"></string>
-  <string name="msg_default_time">Czas</string>
-  <string name="msg_default_type">Typ</string>
+  <string name="msg_default_time"></string>
+  <string name="msg_default_type"></string>
   <string name="msg_encode_contents_failed">Nie można zakodować kodu paskowego z dostarczonych danych.</string>
   <string name="msg_google_books">Google Książki</string>
   <string name="msg_google_product">Wyszukiwarka produktów Google</string>

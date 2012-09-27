@@ -17,6 +17,7 @@
 package com.google.zxing.client.android;
 
 import com.google.zxing.BarcodeFormat;
+
 import com.google.zxing.Result;
 import com.google.zxing.ResultMetadataType;
 import com.google.zxing.ResultPoint;
@@ -73,6 +74,7 @@ import java.util.EnumSet;
 import java.util.Map;
 import java.util.Set;
 
+
 /**
  * This activity opens the camera and does the actual scanning on a background thread. It draws a
  * viewfinder to help the user place the barcode correctly, shows feedback as the image processing
@@ -84,6 +86,8 @@ import java.util.Set;
 public class CaptureActivity extends Activity implements SurfaceHolder.Callback {
 
   private static final String TAG = CaptureActivity.class.getSimpleName();
+  
+  public static final String SNAP = "com.snap.QRcode.return";
 
   private static final int SHARE_ID = Menu.FIRST;
   private static final int HISTORY_ID = Menu.FIRST + 1;
@@ -115,6 +119,7 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback 
   private ViewfinderView viewfinderView;
   private TextView statusView;
   private View resultView;
+  private View resultButtonView;
   private Result lastResult;
   private boolean hasSurface;
   private boolean copyToClipboard;
@@ -182,6 +187,7 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback 
     viewfinderView.setCameraManager(cameraManager);
 
     resultView = findViewById(R.id.result_view);
+    resultButtonView = findViewById(R.id.result_button_view);
     statusView = (TextView) findViewById(R.id.status_view);
 
     handler = null;
@@ -263,6 +269,8 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback 
       characterSet = intent.getStringExtra(Intents.Scan.CHARACTER_SET);
 
     }
+    
+    //Toast.makeText(getApplicationContext(), ""+source, 1).show();
   }
   
   private static boolean isZXingURL(String dataString) {
@@ -316,7 +324,7 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback 
     }
     return super.onKeyDown(keyCode, event);
   }
-
+/*
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
     super.onCreateOptionsMenu(menu);
@@ -331,17 +339,17 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback 
     menu.add(Menu.NONE, ABOUT_ID, Menu.NONE, R.string.menu_about)
         .setIcon(android.R.drawable.ic_menu_info_details);
     return true;
-  }
+  }*/
 
   // Don't display the share menu item if the result overlay is showing.
-  @Override
+/*  @Override
   public boolean onPrepareOptionsMenu(Menu menu) {
     super.onPrepareOptionsMenu(menu);
     menu.findItem(SHARE_ID).setVisible(lastResult == null);
     return true;
-  }
+  }*/
 
-  @Override
+  /*@Override
   public boolean onOptionsItemSelected(MenuItem item) {
     Intent intent = new Intent(Intent.ACTION_VIEW);
     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
@@ -377,7 +385,7 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback 
         return super.onOptionsItemSelected(item);
     }
     return true;
-  }
+  }*/
 
   @Override
   public void onActivityResult(int requestCode, int resultCode, Intent intent) {
@@ -468,6 +476,7 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback 
           } else {
             handleDecodeInternally(rawResult, resultHandler, barcode);
           }
+          //Toast.makeText(getApplicationContext(), "blalba", 1).show();
           break;
       }
     }
@@ -517,9 +526,10 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback 
   private void handleDecodeInternally(Result rawResult, ResultHandler resultHandler, Bitmap barcode) {
     statusView.setVisibility(View.GONE);
     viewfinderView.setVisibility(View.GONE);
+    //resultButtonView.setVisibility(View.INVISIBLE);
     resultView.setVisibility(View.VISIBLE);
 
-    ImageView barcodeImageView = (ImageView) findViewById(R.id.barcode_image_view);
+    /*ImageView barcodeImageView = (ImageView) findViewById(R.id.barcode_image_view);
     if (barcode == null) {
       barcodeImageView.setImageBitmap(BitmapFactory.decodeResource(getResources(),
           R.drawable.launcher_icon));
@@ -557,16 +567,16 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback 
         metaTextView.setVisibility(View.VISIBLE);
         metaTextViewLabel.setVisibility(View.VISIBLE);
       }
-    }
+    }*/
 
-    TextView contentsTextView = (TextView) findViewById(R.id.contents_text_view);
+    /*TextView contentsTextView = (TextView) findViewById(R.id.contents_text_view);
     CharSequence displayContents = resultHandler.getDisplayContents();
     contentsTextView.setText(displayContents);
     // Crudely scale betweeen 22 and 32 -- bigger font for shorter text
     int scaledSize = Math.max(22, 32 - displayContents.length() / 4);
-    contentsTextView.setTextSize(TypedValue.COMPLEX_UNIT_SP, scaledSize);
+    contentsTextView.setTextSize(TypedValue.COMPLEX_UNIT_SP, scaledSize);*/
 
-    TextView supplementTextView = (TextView) findViewById(R.id.contents_supplement_text_view);
+    /*TextView supplementTextView = (TextView) findViewById(R.id.contents_supplement_text_view);
     supplementTextView.setText("");
     supplementTextView.setOnClickListener(null);
     if (PreferenceManager.getDefaultSharedPreferences(this).getBoolean(
@@ -576,7 +586,7 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback 
                                                      handler,
                                                      historyManager,
                                                      this);
-    }
+    }*/
 
     int buttonCount = resultHandler.getButtonCount();
     ViewGroup buttonView = (ViewGroup) findViewById(R.id.result_button_view);
@@ -592,10 +602,13 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback 
       }
     }
 
-    if (copyToClipboard && !resultHandler.areContentsSecure()) {
+    /*if (copyToClipboard && !resultHandler.areContentsSecure()) {
       ClipboardManager clipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
       clipboard.setText(displayContents);
-    }
+    }*/
+    
+    Intent intent = new Intent(SNAP);
+    startActivity(intent);
   }
 
   // Briefly show the contents of the barcode, then handle the result outside Barcode Scanner.

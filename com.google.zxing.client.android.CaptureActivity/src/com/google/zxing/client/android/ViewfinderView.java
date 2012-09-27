@@ -90,11 +90,11 @@ public final class ViewfinderView extends View {
     int height = canvas.getHeight();
 
     // Draw the exterior (i.e. outside the framing rect) darkened
-    paint.setColor(resultBitmap != null ? resultColor : maskColor);
+    /*paint.setColor(resultBitmap != null ? resultColor : maskColor);
     canvas.drawRect(0, 0, width, frame.top, paint);
     canvas.drawRect(0, frame.top, frame.left, frame.bottom + 1, paint);
     canvas.drawRect(frame.right + 1, frame.top, width, frame.bottom + 1, paint);
-    canvas.drawRect(0, frame.bottom + 1, width, height, paint);
+    canvas.drawRect(0, frame.bottom + 1, width, height, paint);*/
 
     if (resultBitmap != null) {
       // Draw the opaque result bitmap over the scanning rectangle
@@ -103,11 +103,11 @@ public final class ViewfinderView extends View {
     } else {
 
       // Draw a two pixel solid black border inside the framing rect
-      paint.setColor(frameColor);
+      /*paint.setColor(frameColor);
       canvas.drawRect(frame.left, frame.top, frame.right + 1, frame.top + 2, paint);
       canvas.drawRect(frame.left, frame.top + 2, frame.left + 2, frame.bottom - 1, paint);
       canvas.drawRect(frame.right - 1, frame.top, frame.right + 1, frame.bottom - 1, paint);
-      canvas.drawRect(frame.left, frame.bottom - 1, frame.right + 1, frame.bottom + 1, paint);
+      canvas.drawRect(frame.left, frame.bottom - 1, frame.right + 1, frame.bottom + 1, paint);*/
 
       // Draw a red "laser scanner" line through the middle to show decoding is active
       paint.setColor(laserColor);

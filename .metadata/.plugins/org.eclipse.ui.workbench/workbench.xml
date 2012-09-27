@@ -1,26 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench version="2.0">
-<window>
-<page focus="true" label="Workspace - Java">
+<workbench progressCount="23" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="0" y="30">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.jdt.ui.TypeHierarchy"/>
+</fastViewData>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="168" y="40"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="68" y="40"/>
+<coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="48" y="40"/>
+<coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="96" y="40"/>
+<coolItem id="com.example.helloworld.actionSet" itemType="typeToolBarContribution" x="50" y="40"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="40"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="40"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="104" y="40"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="152" y="40"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="68" y="40"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="40"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1348670568317" focus="true" label="Workspace - Java">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="capture.xml" partName="capture.xml" path="/home/lukasz/workspace/snap2/com.google.zxing.client.android.CaptureActivity/res/layout/capture.xml" title="capture.xml" tooltip="com.google.zxing.client.android.CaptureActivity/res/layout/capture.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.google.zxing.client.android.CaptureActivity/res/layout/capture.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ViewfinderView.java" partName="ViewfinderView.java" path="/home/lukasz/workspace/snap2/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/ViewfinderView.java" title="ViewfinderView.java" tooltip="com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/ViewfinderView.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/ViewfinderView.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3083" selectionTopPixel="896"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CaptureActivity.java" partName="CaptureActivity.java" path="/home/lukasz/workspace/snap2/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/CaptureActivity.java" title="CaptureActivity.java" tooltip="com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/CaptureActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/CaptureActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2671" selectionTopPixel="0"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="encode.xml" partName="encode.xml" path="/home/lukasz/workspace/snap2/com.google.zxing.client.android.CaptureActivity/res/layout-land/encode.xml" title="encode.xml" tooltip="com.google.zxing.client.android.CaptureActivity/res/layout-land/encode.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.google.zxing.client.android.CaptureActivity/res/layout-land/encode.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CameraManager.java" partName="CameraManager.java" path="/home/lukasz/workspace/snap2/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/CameraManager.java" title="CameraManager.java" tooltip="com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/CameraManager.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/CameraManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6460" selectionTopPixel="2511"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CameraConfigurationManager.java" partName="CameraConfigurationManager.java" path="/home/lukasz/workspace/snap2/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/CameraConfigurationManager.java" title="CameraConfigurationManager.java" tooltip="com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/CameraConfigurationManager.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/CameraConfigurationManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4287" selectionTopPixel="1383"/>
+</editor>
 </editors>
 <views>
-<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer"/>
-<view id="org.eclipse.ui.views.ProblemView" partName="Problems"/>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
+<viewState/>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="org.eclipse.jdt.ui.JavaSearchResultPage" org.eclipse.jdt.search.resultpage.grouping="3" org.eclipse.jdt.search.resultpage.limit="1000" org.eclipse.jdt.search.resultpage.limit_enabled="TRUE" org.eclipse.jdt.search.resultpage.sorting="1" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2"/>
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors (1 item)"/>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="453" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="808"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="jdt.external.source.project.filter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
+<child filterId="org.eclipse.m2e.MavenModuleFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
+<viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
+<sorter groupBy="CATEGORY_QUERY">
+<sorter>
+<sort0 sortDirection="1" sortKey="PRIORITY"/>
+<sort1 sortDirection="1" sortKey="RANK"/>
+<sort2 sortDirection="1" sortKey="DATE_CREATED"/>
+<sort3 sortDirection="1" sortKey="NONE"/>
+<sort4 sortDirection="1" sortKey="NONE"/>
+<sort5 sortDirection="1" sortKey="NONE"/>
+<sort6 sortDirection="1" sortKey="NONE"/>
+<sort7 sortDirection="1" sortKey="NONE"/>
+</sorter>
+</sorter>
+<filteredTreeFindHistory/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console"/>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline"/>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -89,14 +222,21 @@
 <perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@110f965e" orientation="512" selectedTabId="org.eclipse.mylyn.tasks.ui.views.tasks" style="0">
+<fastViews>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
@@ -121,14 +261,15 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.17915139" ratioLeft="342" ratioRight="1567" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.20213333" ratioLeft="379" ratioRight="1496" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.6455982" ratioLeft="572" ratioRight="314" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -136,22 +277,27 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@110f965e" ratio="0.74934036" ratioLeft="568" ratioRight="190" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.mylyn.tasks.ui.views.tasks" appearance="2" expanded="2">
-<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.5" ratioLeft="240" ratioRight="240" relationship="4" relative="org.eclipse.ui.internal.ViewStack@110f965e">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@20c6a804" ratio="0.75" ratioLeft="1035" ratioRight="345" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 </presentation>
@@ -162,7 +308,218 @@
 </layout>
 </perspective>
 </perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/com.google.zxing.client.android.CaptureActivity/res/layout/capture.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/ViewfinderView.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/CaptureActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/com.google.zxing.client.android.CaptureActivity/res/values/colors.xml"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=com.snap.QRcode/\/home\/lukasz\/workspace\/snap2\/com.google.zxing.client.android.CaptureActivity\/bin\/com.google.zxing.client.android.captureactivity.jar&lt;com.google.zxing.client.android.camera(CameraManager.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/com.google.zxing.client.android.CaptureActivity/res/layout/encode.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/com.google.zxing.client.android.CaptureActivity/res/layout-land/encode.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/CameraConfigurationManager.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/com.google.zxing.client.android.CaptureActivity/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/CameraManager.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/CameraConfigurationManager.java"/>
+</editors>
+<item historyLabel="CameraManager.class" index="4">
+<position/>
+</item>
+<item historyLabel="colors.xml" index="3"/>
+<item historyLabel="CameraManager.class" index="4">
+<position/>
+</item>
+<item historyLabel="colors.xml" index="3"/>
+<item historyLabel="CaptureActivity.java" index="2">
+<position info="not_deleted" x="2671" y="0"/>
+</item>
+<item historyLabel="CameraManager.class" index="4">
+<position/>
+</item>
+<item historyLabel="colors.xml" index="3"/>
+<item historyLabel="CaptureActivity.java" index="2">
+<position info="not_deleted" x="2671" y="0"/>
+</item>
+<item historyLabel="colors.xml" index="3"/>
+<item historyLabel="CameraManager.class" index="4">
+<position/>
+</item>
+<item historyLabel="ViewfinderView.java" index="1">
+<position info="not_deleted" x="3751" y="0"/>
+</item>
+<item historyLabel="CameraManager.class" index="4">
+<position/>
+</item>
+<item historyLabel="colors.xml" index="3"/>
+<item historyLabel="ViewfinderView.java" index="1">
+<position info="not_deleted" x="3751" y="0"/>
+</item>
+<item historyLabel="CameraManager.class" index="4">
+<position/>
+</item>
+<item historyLabel="ViewfinderView.java" index="1">
+<position/>
+</item>
+<item historyLabel="encode.xml" index="5"/>
+<item historyLabel="colors.xml" index="3"/>
+<item historyLabel="encode.xml" index="6"/>
+<item historyLabel="colors.xml" index="3"/>
+<item historyLabel="encode.xml" index="6"/>
+<item historyLabel="ViewfinderView.java" index="1">
+<position info="not_deleted" x="3067" y="0"/>
+</item>
+<item historyLabel="CameraManager.class" index="4">
+<position/>
+</item>
+<item historyLabel="CameraConfigurationManager.java" index="7">
+<position info="not_deleted" x="2353" y="0"/>
+</item>
+<item historyLabel="CameraManager.class" index="4">
+<position/>
+</item>
+<item historyLabel="ViewfinderView.java" index="1">
+<position info="not_deleted" x="3078" y="0"/>
+</item>
+<item historyLabel="CameraConfigurationManager.java" index="7">
+<position info="not_deleted" x="3710" y="0"/>
+</item>
+<item historyLabel="com.google.zxing.client.android.CaptureActivity Manifest" index="8"/>
+<item historyLabel="ViewfinderView.java" index="1">
+<position info="not_deleted" x="3078" y="0"/>
+</item>
+<item historyLabel="CameraConfigurationManager.java" index="7">
+<position info="not_deleted" x="3496" y="0"/>
+</item>
+<item historyLabel="CameraManager.class" index="4">
+<position info="not_deleted" x="5948" y="0"/>
+</item>
+<item historyLabel="CameraConfigurationManager.java" index="7">
+<position info="not_deleted" x="3496" y="0"/>
+</item>
+<item historyLabel="CameraManager.java" index="9">
+<position info="not_deleted" x="1498" y="0"/>
+</item>
+<item historyLabel="CameraConfigurationManager.java" index="10">
+<position info="not_deleted" x="3524" y="0"/>
+</item>
+<item historyLabel="CameraManager.java" index="9">
+<position info="not_deleted" x="1498" y="0"/>
+</item>
+<item historyLabel="ViewfinderView.java" index="1">
+<position info="not_deleted" x="3083" y="0"/>
+</item>
+<item historyLabel="CameraManager.java" index="9">
+<position info="not_deleted" x="1498" y="0"/>
+</item>
+<item historyLabel="capture.xml" index="0"/>
+<item historyLabel="CameraManager.java" index="9">
+<position info="not_deleted" x="8572" y="0"/>
+</item>
+<item historyLabel="ViewfinderView.java" index="1">
+<position info="not_deleted" x="3083" y="0"/>
+</item>
+<item historyLabel="CaptureActivity.java" index="2">
+<position info="not_deleted" x="2671" y="0"/>
+</item>
+<item historyLabel="ViewfinderView.java" index="1">
+<position info="not_deleted" x="3083" y="0"/>
+</item>
+<item historyLabel="CameraManager.java" index="9">
+<position info="not_deleted" x="8609" y="0"/>
+</item>
+<item historyLabel="CameraConfigurationManager.java" index="10">
+<position info="not_deleted" x="3" y="0"/>
+</item>
+<item historyLabel="CameraManager.java" index="9">
+<position info="not_deleted" x="8609" y="0"/>
+</item>
+<item historyLabel="CameraConfigurationManager.java" index="10">
+<position info="not_deleted" x="3" y="0"/>
+</item>
+<item historyLabel="CameraManager.java" index="9">
+<position info="not_deleted" x="8609" y="0"/>
+</item>
+<item historyLabel="CameraConfigurationManager.java" index="10">
+<position info="not_deleted" x="3" y="0"/>
+</item>
+<item historyLabel="CameraManager.java" index="9">
+<position info="not_deleted" x="6460" y="0"/>
+</item>
+<item active="true" historyLabel="CameraConfigurationManager.java" index="10">
+<position info="not_deleted" x="3" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@110f965e"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+<trimItem IMemento.internal.id="bottom"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@20c6a804"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
 </window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CameraConfigurationManager.java" tooltip="com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/CameraConfigurationManager.java">
+<persistable path="/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/CameraConfigurationManager.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CameraManager.java" tooltip="com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/CameraManager.java">
+<persistable path="/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/CameraManager.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="com.google.zxing.client.android.CaptureActivity/AndroidManifest.xml">
+<persistable path="/com.google.zxing.client.android.CaptureActivity/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="encode.xml" tooltip="com.google.zxing.client.android.CaptureActivity/res/layout/encode.xml">
+<persistable path="/com.google.zxing.client.android.CaptureActivity/res/layout/encode.xml"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="CameraManager.class" tooltip="com.google.zxing.client.android.camera.CameraManager">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=com.snap.QRcode/\/home\/lukasz\/workspace\/snap2\/com.google.zxing.client.android.CaptureActivity\/bin\/com.google.zxing.client.android.captureactivity.jar&lt;com.google.zxing.client.android.camera(CameraManager.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="com.google.zxing.client.android.CaptureActivity/res/values-pl/strings.xml">
+<persistable path="/com.google.zxing.client.android.CaptureActivity/res/values-pl/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="com.google.zxing.client.android.CaptureActivity/res/values/strings.xml">
+<persistable path="/com.google.zxing.client.android.CaptureActivity/res/values/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="colors.xml" tooltip="com.google.zxing.client.android.CaptureActivity/res/values/colors.xml">
+<persistable path="/com.google.zxing.client.android.CaptureActivity/res/values/colors.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CaptureActivity.java" tooltip="com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/CaptureActivity.java">
+<persistable path="/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/CaptureActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ViewfinderView.java" tooltip="com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/ViewfinderView.java">
+<persistable path="/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/ViewfinderView.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PreviewCallback.java" tooltip="com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/PreviewCallback.java">
+<persistable path="/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/PreviewCallback.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AutoFocusCallback.java" tooltip="com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/AutoFocusCallback.java">
+<persistable path="/com.google.zxing.client.android.CaptureActivity/src/com/google/zxing/client/android/camera/AutoFocusCallback.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="capture.xml" tooltip="com.google.zxing.client.android.CaptureActivity/res/layout/capture.xml">
+<persistable path="/com.google.zxing.client.android.CaptureActivity/res/layout/capture.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="com.google.zxing.client.android.CaptureActivity/assets/html-en/index.html">
+<persistable path="/com.google.zxing.client.android.CaptureActivity/assets/html-en/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="style.css" tooltip="com.google.zxing.client.android.CaptureActivity/assets/style.css">
+<persistable path="/com.google.zxing.client.android.CaptureActivity/assets/style.css"/>
+</file>
+</mruList>
 </workbench>

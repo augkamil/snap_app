@@ -1,0 +1,31 @@
+package com.snap;
+
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.widget.ImageButton;
+
+public class Map extends Activity{
+	
+	ImageButton mapBtn;
+	ImageButton listBtn;
+	ImageButton cardBtn;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.map);
+        
+        
+        mapBtn = (ImageButton)findViewById(R.id.map_btn);
+        listBtn = (ImageButton)findViewById(R.id.list_btn);
+        cardBtn = (ImageButton)findViewById(R.id.card_btn);
+        
+        mapBtn.setImageResource(R.drawable.map_btn_pressed_lq);
+        listBtn.setImageResource(R.drawable.list_btn_lq);
+        cardBtn.setImageResource(R.drawable.card_btn_lq);
+    }
+
+
+}

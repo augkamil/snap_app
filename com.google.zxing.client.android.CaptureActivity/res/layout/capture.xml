@@ -37,7 +37,8 @@
                 android:padding="4dip"
                 android:baselineAligned="false">
 
-    <LinearLayout
+      <LinearLayout
+        android:id="@+id/result_text_view"
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -181,9 +182,9 @@
 
       </ScrollView>
 
-    </LinearLayout>
+    </LinearLayout> -->
 
-    <LinearLayout android:id="@+id/result_button_view"
+   <LinearLayout android:id="@+id/result_button_view"
                   android:layout_width="fill_parent"
                   android:layout_height="wrap_content"
                   android:orientation="horizontal"
@@ -221,9 +222,9 @@
               android:drawableLeft="@drawable/shopper_icon"
               android:drawablePadding="4dip"
               android:text="@string/button_google_shopper"
-              android:visibility="gone"/>
+              android:visibility="gone"/> 
 
-    </LinearLayout>
+    </LinearLayout> 
 
   </LinearLayout>
 
@@ -234,6 +235,7 @@
             android:background="@color/transparent"
             android:text="@string/msg_default_status"
             android:textColor="@color/status_text"
+            android:visibility="gone"
             android:textSize="14sp"/>
 
 </FrameLayout>

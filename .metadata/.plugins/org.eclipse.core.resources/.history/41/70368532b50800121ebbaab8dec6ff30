@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    	<FrameLayout
+    	    android:id="@+id/top_menu"
+		    android:layout_width="match_parent"
+	        android:layout_height="40dp" >   
+		
+			<include layout="@layout/header" />
+		
+		 </FrameLayout>
+    	
+    	<RelativeLayout
+    	    android:id="@+id/card_first_page_grid"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="match_parent"
+    	    android:layout_marginBottom="46dp"
+    	    android:layout_marginTop="40dp"
+    	    android:background="@drawable/card_first_page_background_lq" >
+                
+        </RelativeLayout>
+        
+    	<FrameLayout
+    	    android:id="@+id/bottom_menu"
+		    android:layout_width="match_parent"
+	        android:layout_height="46dp" 
+	        android:layout_alignParentBottom="true" >
+		
+			<include layout="@layout/footer" />
+		
+		 </FrameLayout>
+
+</RelativeLayout>

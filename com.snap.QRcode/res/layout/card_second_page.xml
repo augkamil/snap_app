@@ -3,19 +3,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    	<TextView 
-    	    android:layout_width="match_parent"
-    	    android:layout_height="50dp"
-    	    android:text="Hello3" />
-    
     	<FrameLayout
+    	    android:id="@+id/top_menu"
 		    android:layout_width="match_parent"
-	        android:layout_height="400dp"
-			android:layout_gravity="center_horizontal"
-			android:layout_alignParentBottom="true" >
-			
-           <include layout="@layout/capture" />
-           
-        </FrameLayout>
+	        android:layout_height="40dp" >
+		
+			<include layout="@layout/header" />
+		
+		 </FrameLayout>
+    	
+    	<GridView
+    	    android:id="@+id/company_card_first_page"
+		    android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+			android:layout_marginTop="40dp" 
+			android:layout_marginBottom="46dp"
+			android:background="@drawable/card_second_page_background_lq" >
+			                   
+        </GridView>
+        
+    	
+    	<FrameLayout
+    	    android:id="@+id/bottom_menu"
+		    android:layout_width="match_parent"
+	        android:layout_height="46dp" 
+	        android:layout_alignParentBottom="true" >
+		
+			<include layout="@layout/footer" />
+		
+		 </FrameLayout>
 
 </RelativeLayout>

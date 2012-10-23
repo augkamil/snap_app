@@ -1,5 +1,8 @@
 package com.snap;
 
+import java.util.ArrayList;
+
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,12 +19,26 @@ public class ScanQR extends CaptureActivity{
 	
 	Intent i = null;
 	Context context;
+	ArrayList<PartnerPoint> result;
+	Store appState;
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
+        ProgressDialog progress = new ProgressDialog(this);
+        progress.setMessage("Loading...");
+        //progress.setIcon(R.drawable.launcher_icon);
+        
+        //pobieranie danych z serwera
+        result = new ArrayList<PartnerPoint>();  
+        GetDataTask getDataTask = new GetDataTask(this, progress);
+        getDataTask.execute("http://peaceful-hollows-9449.herokuapp.com/partners.json");
+        
+        appState = ((Store)getApplicationContext());
+           
         setContentView(R.layout.scan_qr);
-        context = getApplicationContext();
+        context = getApplicationContext();     
         
         collectBtn = (ImageButton)findViewById(R.id.collect_btn); 
         scanBtn = (ImageButton)findViewById(R.id.scan_btn);
@@ -36,6 +53,8 @@ public class ScanQR extends CaptureActivity{
 
 		@Override
 		public void onClick(View v) {
+			appState.setPartnerPoints(result);
+			
 			i = new Intent(context, CardFirstPage.class);
 			startActivity(i);
 		}
@@ -46,6 +65,8 @@ public class ScanQR extends CaptureActivity{
 
 		@Override
 		public void onClick(View v) {
+			appState.setPartnerPoints(result);
+			
 			i = new Intent(context, ListCards.class);
 			startActivity(i);
 		}

@@ -1,0 +1,152 @@
+package com.snap;
+
+
+import java.util.ArrayList;
+import java.util.Comparator;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.location.Criteria;
+import android.location.Location;
+import android.location.LocationManager;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.TextView;
+
+import com.google.android.maps.GeoPoint;
+
+public class ListMyCards extends Activity{
+	
+	ImageButton mapBtn;
+	ImageButton listBtn;
+	ImageButton cardBtn;
+	
+	Context context;
+	Intent i = null;
+	ArrayList<PartnerPoint> result = null;
+	Store appState;
+	PartnerPointAdapter adapter=null;
+	GeoPoint currentLocation;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        result = new ArrayList<PartnerPoint>();
+        appState = ((Store)getApplicationContext());
+	    result = appState.getPartnerPoints();
+        
+        setContentView(R.layout.list_my_cards);
+        
+        context = getApplicationContext();
+                
+        mapBtn = (ImageButton)findViewById(R.id.map_btn);
+        listBtn = (ImageButton)findViewById(R.id.list_btn);
+        cardBtn = (ImageButton)findViewById(R.id.card_btn);
+        
+        mapBtn.setImageResource(R.drawable.map_btn_lq);
+        listBtn.setImageResource(R.drawable.list_btn_pressed_lq);
+        cardBtn.setImageResource(R.drawable.card_btn_lq);
+        
+        cardBtn.setOnClickListener(lCard);
+        mapBtn.setOnClickListener(lMap);
+        
+        ListView list = (ListView)findViewById(R.id.partners);
+        
+        adapter = new PartnerPointAdapter();
+        list.setAdapter(adapter);
+        
+        /*LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+    	Criteria criteria = new Criteria();
+    	String bestProvider = locationManager.getBestProvider(criteria, false);
+        
+        Location location = locationManager.getLastKnownLocation(bestProvider);
+		currentLocation = new GeoPoint((int)(location.getLatitude() * 1E6), (int)(location.getLongitude() * 1E6));
+    
+		for (int i = 0; i < result.size(); i++) {
+			result.get(i).updateDistance(currentLocation);
+		}*/
+    }
+    
+    public class PartnerPointComparator implements Comparator<PartnerPoint>
+    {
+		@Override
+		public int compare(PartnerPoint arg0, PartnerPoint arg1) {
+			return 0;
+		}
+    }
+
+    private View.OnClickListener lCard = new View.OnClickListener() {
+
+		@Override
+		public void onClick(View v) {
+			i = new Intent(context, CardFirstPage.class);
+			startActivity(i);
+		}
+	};
+	
+	private View.OnClickListener lMap = new View.OnClickListener() {
+
+		@Override
+		public void onClick(View v) {
+			i = new Intent(context, Map.class);
+			startActivity(i);
+		}
+	};
+	
+	
+	class PartnerPointAdapter extends ArrayAdapter<PartnerPoint> {
+		PartnerPointAdapter() {
+			super(ListMyCards.this, R.layout.list_row, result);
+		}
+		
+		public View getView(int position, View convertView, ViewGroup parent) {
+			View row = convertView;
+			PartnerHolder holder = null;
+			
+			if(row == null) {
+				LayoutInflater inflater = getLayoutInflater();
+				row = inflater.inflate(R.layout.list_row, parent, false);
+				holder = new PartnerHolder(row);
+				row.setTag(holder);
+			}
+			else {
+				holder = (PartnerHolder)row.getTag();
+			}
+			
+			holder.populateFrom(result.get(position));
+			return(row);
+		}
+	}
+	
+	static class PartnerHolder {
+		private TextView name=null;
+		private TextView address=null;
+		private TextView distance=null;
+		private TextView points=null;
+		private ImageView icon=null;
+		
+		PartnerHolder(View row) {
+			name=(TextView)row.findViewById(R.id.title);
+			address=(TextView)row.findViewById(R.id.address);
+			distance=(TextView)row.findViewById(R.id.distance);
+			points=(TextView)row.findViewById(R.id.points);
+			icon=(ImageView)row.findViewById(R.id.icon);
+		}
+		
+		void populateFrom(PartnerPoint p) {
+			name.setText(p.getTitle());
+			address.setText(p.getAddress());
+			distance.setText(p.distance);
+			points.setText("o"); //fake
+			icon.setImageDrawable(p.getMarker());
+		}
+	}
+
+}

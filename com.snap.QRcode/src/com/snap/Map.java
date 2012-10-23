@@ -2,6 +2,7 @@ package com.snap;
 
 
 import java.util.ArrayList;
+import java.util.Date;
 
 import android.content.Context;
 import android.content.Intent;
@@ -35,29 +36,41 @@ public class Map extends MapActivity implements LocationListener {
 	Context context;
 	Intent i = null;
 
+	ArrayList<PartnerPoint> result = null;
+	Store appState;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        result = new ArrayList<PartnerPoint>();
+        appState = ((Store)getApplicationContext());
+	    result = appState.getPartnerPoints();
+        
+        //GetDataTask getDataTask = new GetDataTask(this);
+        //getDataTask.execute("http://peaceful-hollows-9449.herokuapp.com/partners.json");
+        
         setContentView(R.layout.map);
-        
+        map = (MapView) findViewById(R.id.map);     
         context = getApplicationContext();
+		
+        Date date = new Date();
+        Log.d("czas 1", date.toString());
         
-        map = (MapView) findViewById(R.id.map); 
         mapController = map.getController();
         
-        mapController.setZoom(16);
         map.setBuiltInZoomControls(true);
         map.setSatellite(false);
-        
-        locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+        mapController.setZoom(16);
+		
+        locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
+        Log.d("loc", ""+locationManager);
         Criteria criteria = new Criteria();
 		bestProvider = locationManager.getBestProvider(criteria, false);
-		
+		Log.d("loc", ""+bestProvider);
 		Location location = locationManager.getLastKnownLocation(bestProvider);
 		GeoPoint point = new GeoPoint((int)(location.getLatitude() * 1E6), (int)(location.getLongitude() * 1E6));
-		Log.d("GPS", ""+point);   
-		
-		mapController.animateTo(point);
+		Log.d("GPS", ""+point);  
+
         
         mapBtn = (ImageButton)findViewById(R.id.map_btn);
         listBtn = (ImageButton)findViewById(R.id.list_btn);
@@ -70,13 +83,15 @@ public class Map extends MapActivity implements LocationListener {
         cardBtn.setOnClickListener(lCard);
         listBtn.setOnClickListener(lList);
         
-        GetDataTask getDataTask = new GetDataTask(this);
-        getDataTask.execute("http://peaceful-hollows-9449.herokuapp.com/partners.json");
+        Log.d("pomiar", "pomiar");
+        
+        makeOverlay(result);
     }
     
     public void makeOverlay(ArrayList<PartnerPoint> partnerPoints) {
     	
 		// dodajemy naszą warstwę do mapy
+    	Log.d("wysw", "1");
 		map.getOverlays().add(new PartnersOverlay(this, partnerPoints));
 	}
     

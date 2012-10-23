@@ -22,37 +22,43 @@ public class PartnersOverlay extends ItemizedOverlay<OverlayItem> {
 	private Context ctx = null;
 	ArrayList<PartnerPoint> partnerPoints = null;
 	GeoPoint currentLocation;
+	Drawable marker;
 
 	public PartnersOverlay(Context ctx, ArrayList<PartnerPoint> partnerPoints) {
 		super(null);
 		
 		this.ctx = ctx;
 		this.partnerPoints = partnerPoints;
-		
+		Log.d("wysw", "2");
 		
 		// bonus! dodajemy ZOO do mapy
 		Drawable homeMarker = ctx.getResources().getDrawable(R.drawable.star);
+		//marker = ctx.getResources().getDrawable(R.drawable.restaurant);
 		homeMarker.setBounds(0, 0, homeMarker.getIntrinsicWidth(), homeMarker.getIntrinsicHeight());
 		boundCenter(homeMarker);
-
+		Log.d("wysw", "3");
 		Location location = ((Map) ctx).locationManager.getLastKnownLocation(((Map) ctx).bestProvider);
+		Log.d("wysw", location.toString());
 		currentLocation = new GeoPoint((int)(location.getLatitude() * 1E6), (int)(location.getLongitude() * 1E6));
+		//((Map) ctx).map.getController().setCenter(currentLocation);
 		
 		OverlayItem homeItem = new OverlayItem(currentLocation, "Tu jesteś", "");
 		homeItem.setMarker(homeMarker);
 		items.add(homeItem);
-
-	
+		((Map) ctx).mapController.animateTo(currentLocation);
+		
 		// wypełniamy listę obiektów na mapie pobranymi biletomatami
 		for (int i = 0; i < partnerPoints.size(); i++) {
 			Drawable marker = partnerPoints.get(i).getMarker();
+			//partnerPoints.get(i).updateDistance(currentLocation);
+			//Drawable marker = ctx.getResources().getDrawable(R.drawable.restaurant);
 			marker.setBounds(0, 0, marker.getIntrinsicWidth(), marker.getIntrinsicHeight());
 			boundCenter(marker);
-			OverlayItem item = new OverlayItem(partnerPoints.get(i).getGeoPoint(), partnerPoints.get(i).getTitle(), partnerPoints.get(i).getDesc());
+			OverlayItem item = new OverlayItem(partnerPoints.get(i).getGeoPoint(), partnerPoints.get(i).getTitle(), partnerPoints.get(i).getAddress());
 			item.setMarker(marker);
 			items.add(item);
 		}
-		((Map) ctx).map.getController().setCenter(currentLocation);
+		Log.d("wysw", "5");
 		// wypełniamy warstwę, co powoduje jej przerysowanie
 		populate();
 	}

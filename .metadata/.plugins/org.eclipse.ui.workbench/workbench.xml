@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="42" version="2.0">
+<workbench progressCount="28" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="0" y="30">
+<window height="1028" width="1313" x="607" y="24">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.jdt.ui.TypeHierarchy"/>
 </fastViewData>
@@ -19,16 +19,16 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="40"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="40"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="104" y="40"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="40"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="152" y="40"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="68" y="40"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="40"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -42,33 +42,21 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Map.java" partName="Map.java" path="/home/lukasz/workspace/snap2/com.snap.QRcode/src/com/snap/Map.java" title="Map.java" tooltip="com.snap.QRcode/src/com/snap/Map.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.snap.QRcode/src/com/snap/Map.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2742" selectionTopPixel="574"/>
-</editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PartnersOverlay.java" partName="PartnersOverlay.java" path="/home/lukasz/workspace/snap2/com.snap.QRcode/src/com/snap/PartnersOverlay.java" title="PartnersOverlay.java" tooltip="com.snap.QRcode/src/com/snap/PartnersOverlay.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.snap.QRcode/src/com/snap/PartnersOverlay.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1872" selectionTopPixel="1124"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="925" selectionTopPixel="220"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetDataTask.java" partName="GetDataTask.java" path="/home/lukasz/workspace/snap2/com.snap.QRcode/src/com/snap/GetDataTask.java" title="GetDataTask.java" tooltip="com.snap.QRcode/src/com/snap/GetDataTask.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.snap.QRcode/src/com/snap/GetDataTask.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1741" selectionTopPixel="731"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Map.java" partName="Map.java" path="/home/lukasz/workspace/snap2/com.snap.QRcode/src/com/snap/Map.java" title="Map.java" tooltip="com.snap.QRcode/src/com/snap/Map.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.snap.QRcode/src/com/snap/Map.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2065" selectionTopPixel="485"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="map.xml" partName="map.xml" path="/home/lukasz/workspace/snap2/com.snap.QRcode/res/layout/map.xml" title="map.xml" tooltip="com.snap.QRcode/res/layout/map.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.snap.QRcode/res/layout/map.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="scan_qr.xml" partName="scan_qr.xml" path="/home/lukasz/workspace/snap2/com.snap.QRcode/res/layout/scan_qr.xml" title="scan_qr.xml" tooltip="com.snap.QRcode/res/layout/scan_qr.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.snap.QRcode/res/layout/scan_qr.xml"/>
-</editor>
-<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="com.snap.QRcode Manifest" path="/home/lukasz/workspace/snap2/com.snap.QRcode/AndroidManifest.xml" title="com.snap.QRcode Manifest" tooltip="com.snap.QRcode/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.snap.QRcode/AndroidManifest.xml"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ScanQR.java" partName="ScanQR.java" path="/home/lukasz/workspace/snap2/com.snap.QRcode/src/com/snap/ScanQR.java" title="ScanQR.java" tooltip="com.snap.QRcode/src/com/snap/ScanQR.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/com.snap.QRcode/src/com/snap/ScanQR.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="512"/>
 </editor>
 </editors>
 <views>
@@ -85,7 +73,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (42 items)"/>
+<category IMemento.internal.id="Warnings (41 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="453" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="808"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -149,7 +137,7 @@
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="com.android.ide.eclipse.editors.manifest.ManifestEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -257,8 +245,8 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.20213333" ratioLeft="379" ratioRight="1496" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.6455982" ratioLeft="572" ratioRight="314" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.21334432" ratioLeft="259" ratioRight="955" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.7785548" ratioLeft="668" ratioRight="190" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -291,7 +279,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@20c6a804" ratio="0.75" ratioLeft="1035" ratioRight="345" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@20c6a804" ratio="0.8389423" ratioLeft="698" ratioRight="134" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -307,84 +295,182 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/com.snap.QRcode/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.snap.QRcode/src/com/snap/ListMyCards.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.snap.QRcode/src/com/snap/Store.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.snap.QRcode/src/com/snap/Map.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.snap.QRcode/src/com/snap/PartnerPoint.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.snap.QRcode/src/com/snap/ScanQR.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.snap.QRcode/src/com/snap/PartnersOverlay.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.snap.QRcode/src/com/snap/PartnerPoint.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.snap.QRcode/src/com/snap/GetDataTask.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/com.snap.QRcode/res/layout/map.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/com.snap.QRcode/res/layout/scan_qr.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/com.snap.QRcode/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.snap.QRcode/src/com/snap/ScanQR.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.snap.QRcode/src/com/snap/PartnerPoint.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.snap.QRcode/src/com/snap/ListMyCards.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.snap.QRcode/src/com/snap/ListCards.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.snap.QRcode/src/com/snap/Store.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/com.snap.QRcode/src/com/snap/PartnersOverlay.java"/>
 </editors>
-<item historyLabel="com.snap.QRcode Manifest" index="0"/>
-<item historyLabel="Map.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="PartnerPoint.java" index="4">
+<position info="not_deleted" x="965" y="0"/>
 </item>
-<item historyLabel="PartnerPoint.java" index="2">
+<item historyLabel="Map.java" index="2">
+<position info="not_deleted" x="1802" y="0"/>
+</item>
+<item historyLabel="ListMyCards.java" index="0">
+<position info="not_deleted" x="4212" y="0"/>
+</item>
+<item historyLabel="Map.java" index="2">
+<position info="not_deleted" x="1802" y="0"/>
+</item>
+<item historyLabel="PartnersOverlay.java" index="3">
 <position/>
 </item>
-<item historyLabel="ScanQR.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="PartnerPoint.java" index="4">
+<position info="not_deleted" x="965" y="0"/>
 </item>
-<item historyLabel="PartnerPoint.java" index="2">
+<item historyLabel="Map.java" index="2">
+<position info="not_deleted" x="1802" y="0"/>
+</item>
+<item historyLabel="ListMyCards.java" index="0">
+<position info="not_deleted" x="2599" y="0"/>
+</item>
+<item historyLabel="Map.java" index="2">
+<position info="not_deleted" x="1802" y="0"/>
+</item>
+<item historyLabel="PartnerPoint.java" index="4">
+<position info="not_deleted" x="965" y="0"/>
+</item>
+<item historyLabel="PartnersOverlay.java" index="3">
 <position/>
 </item>
-<item historyLabel="Map.java" index="1">
+<item historyLabel="GetDataTask.java" index="5">
+<position/>
+</item>
+<item historyLabel="GetDataTask.java" index="5">
+<position/>
+</item>
+<item historyLabel="PartnersOverlay.java" index="3">
+<position/>
+</item>
+<item historyLabel="Map.java" index="2">
+<position info="not_deleted" x="1802" y="0"/>
+</item>
+<item historyLabel="Map.java" index="2">
+<position info="not_deleted" x="1735" y="0"/>
+</item>
+<item historyLabel="PartnersOverlay.java" index="3">
+<position/>
+</item>
+<item historyLabel="PartnersOverlay.java" index="3">
+<position/>
+</item>
+<item historyLabel="Map.java" index="2">
+<position info="not_deleted" x="1735" y="0"/>
+</item>
+<item historyLabel="PartnerPoint.java" index="4">
+<position info="not_deleted" x="965" y="0"/>
+</item>
+<item historyLabel="PartnersOverlay.java" index="3">
+<position/>
+</item>
+<item historyLabel="Map.java" index="2">
+<position info="not_deleted" x="1735" y="0"/>
+</item>
+<item historyLabel="PartnersOverlay.java" index="3">
+<position/>
+</item>
+<item historyLabel="GetDataTask.java" index="5">
+<position/>
+</item>
+<item historyLabel="Store.java" index="1">
+<position/>
+</item>
+<item historyLabel="ScanQR.java" index="6">
+<position/>
+</item>
+<item historyLabel="PartnersOverlay.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="PartnerPoint.java" index="2">
-<position info="not_deleted" x="253" y="0"/>
+<item historyLabel="PartnerPoint.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Map.java" index="1">
-<position info="not_deleted" x="921" y="0"/>
+<item historyLabel="PartnersOverlay.java" index="3">
+<position info="not_deleted" x="774" y="0"/>
 </item>
-<item historyLabel="PartnersOverlay.java" index="4">
-<position info="not_deleted" x="1078" y="0"/>
+<item historyLabel="Store.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ScanQR.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="PartnersOverlay.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Map.java" index="2">
+<position info="not_deleted" x="3045" y="0"/>
+</item>
+<item historyLabel="ListMyCards.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Map.java" index="2">
+<position info="not_deleted" x="3045" y="0"/>
+</item>
+<item historyLabel="ListCards.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Map.java" index="2">
+<position info="not_deleted" x="3045" y="0"/>
 </item>
 <item historyLabel="GetDataTask.java" index="5">
-<position info="not_deleted" x="378" y="0"/>
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Map.java" index="1">
-<position info="not_deleted" x="921" y="0"/>
+<item historyLabel="Map.java" index="2">
+<position info="not_deleted" x="1632" y="0"/>
 </item>
-<item historyLabel="Map.java" index="1">
-<position info="not_deleted" x="1782" y="0"/>
+<item historyLabel="PartnersOverlay.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Map.java" index="1">
-<position info="not_deleted" x="1719" y="3"/>
+<item historyLabel="Map.java" index="2">
+<position info="not_deleted" x="2273" y="0"/>
 </item>
-<item historyLabel="Map.java" index="1">
-<position info="not_deleted" x="1782" y="0"/>
+<item historyLabel="PartnersOverlay.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Map.java" index="1">
-<position info="not_deleted" x="1209" y="0"/>
+<item historyLabel="Map.java" index="2">
+<position info="not_deleted" x="3626" y="0"/>
 </item>
-<item historyLabel="Map.java" index="1">
-<position info="not_deleted" x="1719" y="3"/>
+<item historyLabel="Store.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Map.java" index="1">
-<position info="not_deleted" x="2742" y="0"/>
+<item historyLabel="Map.java" index="2">
+<position info="not_deleted" x="3626" y="0"/>
 </item>
-<item historyLabel="map.xml" index="6"/>
-<item historyLabel="GetDataTask.java" index="5">
-<position info="not_deleted" x="1741" y="0"/>
+<item historyLabel="ScanQR.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="PartnersOverlay.java" index="4">
-<position info="not_deleted" x="1872" y="0"/>
+<item historyLabel="Map.java" index="2">
+<position info="not_deleted" x="2065" y="0"/>
 </item>
-<item historyLabel="map.xml" index="6"/>
-<item historyLabel="scan_qr.xml" index="7"/>
-<item historyLabel="map.xml" index="6"/>
-<item active="true" historyLabel="com.snap.QRcode Manifest" index="8"/>
+<item historyLabel="PartnersOverlay.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="PartnersOverlay.java" index="11">
+<position info="not_deleted" x="925" y="0"/>
+</item>
+<item active="true" historyLabel="Map.java" index="2">
+<position info="not_deleted" x="2065" y="0"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@110f965e"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@20c6a804"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -398,17 +484,26 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="com.snap.QRcode/AndroidManifest.xml">
-<persistable path="/com.snap.QRcode/AndroidManifest.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ScanQR.java" tooltip="com.snap.QRcode/src/com/snap/ScanQR.java">
+<persistable path="/com.snap.QRcode/src/com/snap/ScanQR.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="scan_qr.xml" tooltip="com.snap.QRcode/res/layout/scan_qr.xml">
-<persistable path="/com.snap.QRcode/res/layout/scan_qr.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="map.xml" tooltip="com.snap.QRcode/res/layout/map.xml">
-<persistable path="/com.snap.QRcode/res/layout/map.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Store.java" tooltip="com.snap.QRcode/src/com/snap/Store.java">
+<persistable path="/com.snap.QRcode/src/com/snap/Store.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GetDataTask.java" tooltip="com.snap.QRcode/src/com/snap/GetDataTask.java">
 <persistable path="/com.snap.QRcode/src/com/snap/GetDataTask.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListCards.java" tooltip="com.snap.QRcode/src/com/snap/ListCards.java">
+<persistable path="/com.snap.QRcode/src/com/snap/ListCards.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListMyCards.java" tooltip="com.snap.QRcode/src/com/snap/ListMyCards.java">
+<persistable path="/com.snap.QRcode/src/com/snap/ListMyCards.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="com.snap.QRcode/AndroidManifest.xml">
+<persistable path="/com.snap.QRcode/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Map.java" tooltip="com.snap.QRcode/src/com/snap/Map.java">
+<persistable path="/com.snap.QRcode/src/com/snap/Map.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PartnersOverlay.java" tooltip="com.snap.QRcode/src/com/snap/PartnersOverlay.java">
 <persistable path="/com.snap.QRcode/src/com/snap/PartnersOverlay.java"/>
@@ -416,32 +511,23 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PartnerPoint.java" tooltip="com.snap.QRcode/src/com/snap/PartnerPoint.java">
 <persistable path="/com.snap.QRcode/src/com/snap/PartnerPoint.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ScanQR.java" tooltip="com.snap.QRcode/src/com/snap/ScanQR.java">
-<persistable path="/com.snap.QRcode/src/com/snap/ScanQR.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="star.png" tooltip="com.snap.QRcode/res/drawable-mdpi/star.png">
+<persistable path="/com.snap.QRcode/res/drawable-mdpi/star.png"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Map.java" tooltip="com.snap.QRcode/src/com/snap/Map.java">
-<persistable path="/com.snap.QRcode/src/com/snap/Map.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="restaurant.png" tooltip="com.snap.QRcode/res/drawable-mdpi/restaurant.png">
+<persistable path="/com.snap.QRcode/res/drawable-mdpi/restaurant.png"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListCards.java" tooltip="com.snap.QRcode/src/com/snap/ListCards.java">
-<persistable path="/com.snap.QRcode/src/com/snap/ListCards.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="billiard.png" tooltip="com.snap.QRcode/res/drawable-mdpi/billiard.png">
+<persistable path="/com.snap.QRcode/res/drawable-mdpi/billiard.png"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="list_cards.xml" tooltip="com.snap.QRcode/res/layout/list_cards.xml">
-<persistable path="/com.snap.QRcode/res/layout/list_cards.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="beergarden.png" tooltip="com.snap.QRcode/res/drawable-mdpi/beergarden.png">
+<persistable path="/com.snap.QRcode/res/drawable-mdpi/beergarden.png"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="list_my_cards.xml" tooltip="com.snap.QRcode/res/layout/list_my_cards.xml">
-<persistable path="/com.snap.QRcode/res/layout/list_my_cards.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="list_btn_lq.png" tooltip="com.snap.QRcode/res/drawable-mdpi/list_btn_lq.png">
+<persistable path="/com.snap.QRcode/res/drawable-mdpi/list_btn_lq.png"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListMyCards.java" tooltip="com.snap.QRcode/src/com/snap/ListMyCards.java">
-<persistable path="/com.snap.QRcode/src/com/snap/ListMyCards.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="colors.xml" tooltip="com.snap.QRcode/res/values/colors.xml">
-<persistable path="/com.snap.QRcode/res/values/colors.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CardFirstPage.java" tooltip="com.snap.QRcode/src/com/snap/CardFirstPage.java">
-<persistable path="/com.snap.QRcode/src/com/snap/CardFirstPage.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="header.xml" tooltip="com.snap.QRcode/res/layout/header.xml">
-<persistable path="/com.snap.QRcode/res/layout/header.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="map.xml" tooltip="com.snap.QRcode/res/layout/map.xml">
+<persistable path="/com.snap.QRcode/res/layout/map.xml"/>
 </file>
 </mruList>
 </workbench>

@@ -7,8 +7,6 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.snap.SimpleGestureFilter.SimpleGestureListener;
 
@@ -41,6 +39,10 @@ public class CardFirstPage extends Activity implements SimpleGestureListener{
         collectBtn = (ImageButton)findViewById(R.id.collect_btn); 
         scanBtn = (ImageButton)findViewById(R.id.scan_btn);
         findNewBtn = (ImageButton)findViewById(R.id.find_new_btn);
+        
+        scanBtn.setImageResource(R.drawable.scan_btn_lq);
+        collectBtn.setImageResource(R.drawable.collect_btn_lq_pressed);
+        findNewBtn.setImageResource(R.drawable.find_new_btn_lq);
         
         
         mapBtn.setImageResource(R.drawable.map_btn_lq);
@@ -104,7 +106,7 @@ public class CardFirstPage extends Activity implements SimpleGestureListener{
 
 		@Override
 		public void onClick(View v) {
-			i = new Intent(context, Map.class);
+			i = new Intent(context, MyMap.class);
 			startActivity(i);
 		}
 	};

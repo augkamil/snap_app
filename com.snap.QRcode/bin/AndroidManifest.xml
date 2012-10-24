@@ -9,19 +9,21 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:icon="@drawable/ic_launcher"
         android:name=".Store"
         android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar" >
-        <uses-library android:name="com.google.android.maps" />
-        <activity
-            android:name=".ScanQR"
-            android:label="@string/title_activity_qrcode" android:screenOrientation="portrait">
+        <activity android:name="Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScanQR"
+            android:label="@string/title_activity_qrcode" android:screenOrientation="portrait">
         </activity>
         <activity 
             android:name="CardFirstPage" android:screenOrientation="portrait">
@@ -34,6 +36,10 @@
         <activity android:name="ListCards" android:screenOrientation="portrait"></activity>
         <activity android:name="ListMyCards" android:screenOrientation="portrait"></activity>
         <activity android:name="Map" android:screenOrientation="portrait"></activity>
+        
+        <meta-data android:value="@string/app_id" android:name="com.facebook.sdk.ApplicationId" /><activity android:name="com.facebook.LoginActivity"></activity><uses-library android:name="com.google.android.maps" />
+        
+        <activity android:name="MyMap"></activity>
     </application>
 
 </manifest>

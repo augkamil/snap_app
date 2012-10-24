@@ -1,5 +1,7 @@
 # cache for current jar dependecy. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1328346788000 430433 bd6b097588487313f7a94914fb89d44238964977 /home/lukasz/workspace/snap2/com.snap.QRcode/libs/core.jar
-1328346788000 430433 bd6b097588487313f7a94914fb89d44238964977 /home/lukasz/workspace/snap2/com.google.zxing.client.android.CaptureActivity/libs/core.jar
+1351066333000 430433 bd6b097588487313f7a94914fb89d44238964977 /home/kamil/Workspace/Facebook/snap/com.google.zxing.client.android.CaptureActivity/libs/core.jar
+1351066333000 430433 bd6b097588487313f7a94914fb89d44238964977 /home/kamil/Workspace/Facebook/snap/com.snap.QRcode/libs/core.jar
+1351066333000 349252 612846c9857077a039b533718f72db3bc041d389 /home/kamil/Workspace/Facebook/snap/com.snap.QRcode/libs/android-support-v4.jar
+1351026261000 349252 612846c9857077a039b533718f72db3bc041d389 /home/kamil/Workspace/Facebook/facebook-android-sdk-3.0.b/facebook/libs/android-support-v4.jar

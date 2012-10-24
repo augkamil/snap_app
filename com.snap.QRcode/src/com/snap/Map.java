@@ -22,17 +22,17 @@ import com.google.android.maps.MapView;
 import com.google.android.maps.MyLocationOverlay;
 
 public class Map extends MapActivity implements LocationListener {
-	
+
 	MapView map = null;
 	MyLocationOverlay overlay;
 	LocationManager locationManager;
 	String bestProvider;
 	MapController mapController;
-	
+
 	ImageButton mapBtn;
 	ImageButton listBtn;
 	ImageButton cardBtn;
-	
+
 	Context context;
 	Intent i = null;
 
@@ -52,7 +52,7 @@ public class Map extends MapActivity implements LocationListener {
         setContentView(R.layout.map);
         map = (MapView) findViewById(R.id.map);     
         context = getApplicationContext();
-		
+
         Date date = new Date();
         Log.d("czas 1", date.toString());
         
@@ -61,7 +61,7 @@ public class Map extends MapActivity implements LocationListener {
         map.setBuiltInZoomControls(true);
         map.setSatellite(false);
         mapController.setZoom(16);
-		
+
         locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
         Log.d("loc", ""+locationManager);
         Criteria criteria = new Criteria();
@@ -92,7 +92,7 @@ public class Map extends MapActivity implements LocationListener {
     	
 		// dodajemy naszą warstwę do mapy
     	Log.d("wysw", "1");
-		map.getOverlays().add(new PartnersOverlay(this, partnerPoints));
+		map.getOverlays().add(new PartnersOverlay(this, partnerPoints, 2));
 	}
     
     @Override
@@ -118,7 +118,7 @@ public class Map extends MapActivity implements LocationListener {
 			startActivity(i);
 		}
 	};
-	
+
 	private View.OnClickListener lList = new View.OnClickListener() {
 
 		@Override
@@ -131,25 +131,25 @@ public class Map extends MapActivity implements LocationListener {
 	@Override
 	public void onLocationChanged(Location arg0) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void onProviderDisabled(String arg0) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void onProviderEnabled(String arg0) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void onStatusChanged(String arg0, int arg1, Bundle arg2) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override

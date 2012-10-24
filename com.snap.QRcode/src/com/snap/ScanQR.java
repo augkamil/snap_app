@@ -6,6 +6,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -22,6 +23,7 @@ public class ScanQR extends CaptureActivity{
 	ArrayList<PartnerPoint> result;
 	Store appState;
 	
+	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,13 +31,20 @@ public class ScanQR extends CaptureActivity{
         ProgressDialog progress = new ProgressDialog(this);
         progress.setMessage("Loading...");
         //progress.setIcon(R.drawable.launcher_icon);
-        
-        //pobieranie danych z serwera
-        result = new ArrayList<PartnerPoint>();  
-        GetDataTask getDataTask = new GetDataTask(this, progress);
-        getDataTask.execute("http://peaceful-hollows-9449.herokuapp.com/partners.json");
-        
+        result = new ArrayList<PartnerPoint>(); 
         appState = ((Store)getApplicationContext());
+        
+        
+        //if(!appState.flag) {
+        
+        	//pobieranie danych z serwera
+        	 
+        	GetDataTask getDataTask = new GetDataTask(this, progress);
+        	getDataTask.execute("http://peaceful-hollows-9449.herokuapp.com/partners.json");
+        	//appState.flag = true;
+        //}
+        
+        
            
         setContentView(R.layout.scan_qr);
         context = getApplicationContext();     
@@ -44,9 +53,13 @@ public class ScanQR extends CaptureActivity{
         scanBtn = (ImageButton)findViewById(R.id.scan_btn);
         findNewBtn = (ImageButton)findViewById(R.id.find_new_btn);
         
+        scanBtn.setImageResource(R.drawable.scan_btn_lq_pressed);
+        collectBtn.setImageResource(R.drawable.collect_btn_lq);
+        findNewBtn.setImageResource(R.drawable.find_new_btn_lq);
+        
         collectBtn.setOnClickListener(lCollect);
         findNewBtn.setOnClickListener(lFindNew);
-        
+         
     }
     
     private View.OnClickListener lCollect = new View.OnClickListener() {
